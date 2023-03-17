@@ -1,10 +1,10 @@
-package com.joneikholm.listprep;
+package com.joneikholm.listprep.util;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-class MyJSONParser {
+public class MyJSONParser {
     JSONParser jsonParser = new JSONParser();
     public JSONObject parse(String s){
         System.out.println("parsing string: ");

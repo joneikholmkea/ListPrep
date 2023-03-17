@@ -1,4 +1,4 @@
-package com.joneikholm.listprep;
+package com.joneikholm.listprep.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import com.joneikholm.listprep.R;
 
 public class NewsDetailActivity extends AppCompatActivity {
 

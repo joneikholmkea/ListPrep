@@ -1,4 +1,4 @@
-package com.joneikholm.listprep;
+package com.joneikholm.listprep.activity;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 
+import com.joneikholm.listprep.R;
 import com.joneikholm.listprep.global.Global;
 import com.joneikholm.listprep.model.Note;
 import com.joneikholm.listprep.repo.Repo;

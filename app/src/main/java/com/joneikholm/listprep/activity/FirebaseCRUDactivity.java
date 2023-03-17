@@ -1,23 +1,21 @@
-package com.joneikholm.listprep;
+package com.joneikholm.listprep.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.Toast;
 
+import com.joneikholm.listprep.R;
 import com.joneikholm.listprep.adapter.MyFirAdapter;
 import com.joneikholm.listprep.global.Global;
 import com.joneikholm.listprep.model.Note;
 import com.joneikholm.listprep.repo.Repo;
 import com.joneikholm.listprep.service.Updatable;
 
-public class FirebaseCRUD extends AppCompatActivity implements Updatable {
+public class FirebaseCRUDactivity extends AppCompatActivity implements Updatable {
 
     private MyFirAdapter myAdapter;
     AlertDialog.Builder builder;

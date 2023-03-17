@@ -1,4 +1,4 @@
-package com.joneikholm.listprep;
+package com.joneikholm.listprep.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.joneikholm.listprep.R;
 import com.joneikholm.listprep.repo.Repo;
 import com.joneikholm.listprep.service.Updatable;
 
